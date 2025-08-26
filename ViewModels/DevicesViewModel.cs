@@ -29,8 +29,6 @@ namespace FinalAttemptWPF.ViewModels
 
         private DispatcherTimer? _batchTimer;
 
-        private CancellationTokenSource CancelLogging;
-
         [ObservableProperty]
         public string? currentTemp1 = null;
 
@@ -174,6 +172,7 @@ namespace FinalAttemptWPF.ViewModels
         {
 
             ConsoleManager.AllocConsole();
+
             Console.WriteLine("Console Opened");
             Console.WriteLine("For Commands list type : help");
 

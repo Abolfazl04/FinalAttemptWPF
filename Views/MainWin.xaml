@@ -137,6 +137,7 @@
             </Button.Background>
 
         </Button>
+        
         <Button  Name="dbVIew" 
           Width="40" 
           Height="40" 
@@ -144,8 +145,8 @@
           VerticalAlignment="Top" 
           Margin="30,80,0,0" 
           Grid.Column="0"
-          BorderThickness="0" 
-          Click="SettingButton_Click"  >
+          BorderThickness="0" Click="dbVIew_Click" 
+           >
 
             <Button.Background >
                 <ImageBrush ImageSource="/FinalAttemptWPF;component/Resources/Images/databaseIcon.png" Stretch="UniformToFill"/>

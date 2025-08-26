@@ -61,6 +61,11 @@ namespace FinalAttemptWPF.Views
 
         private void SettingButton_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
+
+        private void dbVIew_Click(object sender, RoutedEventArgs e)
+        {
             DisplayDB displayDB = new DisplayDB();
             displayDB.Show();
         }

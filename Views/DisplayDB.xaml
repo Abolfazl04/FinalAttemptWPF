@@ -1,0 +1,15 @@
+﻿<Window x:Class="FinalAttemptWPF.Views.DisplayDB"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalAttemptWPF.Views"
+        xmlns:viewmodels="clr-namespace:FinalAttemptWPF.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewmodels:LogsViewModel}"
+        mc:Ignorable="d"
+        Title="DisplayDB" Height="450" Width="800">
+    <Grid>
+        <DataGrid ItemsSource="{Binding SimLogs}" AutoGenerateColumns="True"
+          CanUserAddRows="False" IsReadOnly="True"/>
+    </Grid>
+</Window>

@@ -1,3 +1,5 @@
+## This is a mini project done for my university classes as a "Temperature simulator" created as a Windows application using WPF ##
+
 There are two ways of running this application :
 1- using the source code and a compiler 
 2- using the executable version of the app
@@ -6,7 +8,7 @@ The CLI and the simulation display window can work simultaneously, and you can u
 The sample rate* inside the CLI logging can be set between 1 and 60 
 * Sample rate is not the same as data creation rate, which is locked in at 60Hz
 You can only log one device at a time using the "log" keyword
-There is a bug where if you click the X button in the CLI, it closes the whole application, which I am aware of; I just didn't have enough time to fix
+There is a bug where if you click the X button in the CLI, it closes the whole application, which I am aware of; I just didn't have enough time to fix it.
 This was my first WPF project and also my first MVVM architecture design, and I tried my best to keep it as clean and in line with the standards as possible
 All data created gets saved inside a SQLite DB file, which is inside the file directory called "DevicesLogs.db", and will only exist if you run the app at least once
 You can view the DB inside the app by using the database button
